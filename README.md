@@ -6,4 +6,4 @@ Karma + Jasmine + Babel + Webpack test scaffold
 npm install
 npm test
 ```
-Tests should be co-located with sources located in `src` and are placed typically within a `__test__` directory.  
+Tests should be co-located with sources `src` and are placed typically within a `__test__` directory.  
