@@ -2,13 +2,7 @@
 module.exports = function (config) {
 
   config.set({
-
-    browserNoActivityTimeout: 50000,
     browsers: ['Chrome'],
-
-    client: {
-      captureConsole: true
-    },
 
     frameworks: [
       'jasmine',
@@ -18,15 +12,6 @@ module.exports = function (config) {
     reporters: ['progress', 'beep'],
 
     files: [
-
-      { pattern: 'vendor/es5-shim.min.js', watched: false, served: true, included: true },
-      { pattern: 'vendor/es5-sham.min.js', watched: false, served: true, included: true },
-      { pattern: 'vendor/jasmine-matchers.js', watched: false, served: true, included: true },
-      { pattern: 'vendor/sinon-1.12.2.js', watched: false, served: true, included: true },
-      { pattern: 'vendor/modernizr.js', watched: false, served: true, included: true },
-      { pattern: 'vendor/matchers.js', watched: false, served: true, included: true },
-
-      // Main sources
       { pattern: 'unit.webpack.loader.js', watched: true }
     ],
 
