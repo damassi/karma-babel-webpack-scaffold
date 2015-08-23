@@ -4,7 +4,7 @@
   "description": "Karma + Jasmine + Babel + Webpack test scaffold",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node karma.server.js"
   },
   "repository": {
     "type": "git",
